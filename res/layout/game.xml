@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+    
+    <RelativeLayout android:id="@+id/top_part"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+    	<TextView android:id="@+id/score_label"
+    		android:text="     Score: "
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentLeft="true"
+    		android:layout_alignParentTop="true">
+    	</TextView>
+    	<TextView android:id="@+id/score"
+    		android:text=" 00"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_toRightOf="@id/score_label">
+    	</TextView>
+    	<TextView android:id="@+id/norma"
+    		android:text=" 00"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentRight="true"
+    		android:layout_alignParentTop="true">
+    	</TextView>
+    	<TextView android:id="@+id/norma_label"
+    		android:text="Remains: "
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_toLeftOf="@id/norma">
+    	</TextView>    	
+    </RelativeLayout>
+    
+   	<com.fromflash.samegame.SameView android:id="@+id/sameview"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent">
+	</com.fromflash.samegame.SameView>
+    
+</LinearLayout>

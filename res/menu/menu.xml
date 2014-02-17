@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu_item1" android:icon="@drawable/menu_icon1" android:title="@string/menu_newgame"></item>
+<item android:id="@+id/menu_item4" android:icon="@drawable/menu_icon4" android:title="@string/title_level" android:titleCondensed="@string/menu_level"><menu>
+
+<group android:id="@+id/group01" android:checkableBehavior="single"><item android:id="@+id/two" android:title="      2" android:checkable="true"></item><item android:id="@+id/three" android:title="      3" android:checkable="true"></item>
+<item android:id="@+id/four" android:title="      4" android:checkable="true"></item>
+<item android:id="@+id/five" android:title="      5" android:checkable="true"></item>
+</group>
+</menu>
+</item><item android:id="@+id/menu_item5" android:icon="@drawable/menu_icon5" android:title="@string/title_sound" android:titleCondensed="@string/menu_sound"><menu><group android:id="@+id/group02" android:checkableBehavior="single"><item android:title="On" android:id="@+id/sound_on"></item>
+<item android:title="Off" android:id="@+id/sound_off"></item>
+</group>
+</menu>
+</item><item android:id="@+id/menu_item6" android:title="@string/menu_score" android:icon="@drawable/menu_icon6"></item><item android:id="@+id/menu_item2" android:icon="@drawable/menu_icon2" android:title="@string/menu_help"></item>
+<item android:id="@+id/menu_item3" android:icon="@drawable/menu_icon3" android:title="@string/menu_about"></item>
+
+
+
+
+</menu>

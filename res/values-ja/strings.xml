@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Samegame!</string>
+    <string name="app_name">Samegame</string>
+<string name="ready_dialog_text">準備完了！</string>
+<string name="paused_dialog_text">中止</string>
+<string name="ready_dialog_button_text">開始</string>
+<string name="paused_dialog_button_text">Resume</string>
+<string name="win_dialog_text">全部消した！おめでとうございます！\nスコア： </string>
+<string name="win_dialog_button_text">OK</string>
+<string name="lose_dialog_text">2匹以上のブロックはもうない！\nスコア：</string>
+<string name="lose_dialog_button_text">OK</string>
+<string name="txt_about">このゲームの作者は、</string>
+<string name="txt_help_1">2匹以上のキャラクタのグループをクリックします。もう1度グループをクリックするとそのグループは消えます。\n</string>
+<string name="title_about">作者について</string>
+<string name="txt_snout_link">http://www.snout.com.my\n</string>
+
+<string name="txt_snout_name">スナウト株式会社</string>
+<string name="title_help">ヘルプ</string>
+<string name="btn_newgame">新ゲーム</string>
+<string name="btn_help">ヘルプ</string>
+<string name="btn_about">作者について</string>
+<string name="menu_newgame">新ゲーム</string>
+<string name="menu_level">レベルの設定</string>
+<string name="menu_sound">音</string>
+<string name="menu_help">ヘルプ</string>
+<string name="menu_about">作者について</string>
+<string name="title_level">レベルを選んでください</string>
+<string name="title_sound">音の設定</string>
+<string name="txt_help_2">たくさんのキャラクタを1度に消すと高得点が得られます。消す度にスコアは(消したキャラクタの数ー１)の2乗がプラスされます。\n全部のキャラクタを消したなら、500ポイントのボナスが得られます。</string>
+<string name="txt_help_3">キャラクタの種類はメニューから設定できます。\n</string>
+<string name="title_score">ハイスコアーレベル</string>
+<string name="menu_score">スコア</string>
+<string name="btn_score">スコア</string>
+<string name="txt_rank">ランク</string>
+<string name="txt_player_name">プレイヤネーム</string>
+<string name="txt_score">スコア</string>
+<string name="txt_nameAsking">トップ５のハイスコアに入っていますんで、\n名前を入力してください、</string>
+<string name="title_nameAsking">おめでとう！</string>
+<string name="txt_cancel">キャンセル</string>
+</resources>

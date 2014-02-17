@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+    
+    <RelativeLayout android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity="center_vertical"
+    	android:orientation="vertical">
+	    <ImageView android:id="@+id/logo"
+	    	android:src="@drawable/open_picture"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_centerHorizontal="true">
+	    </ImageView>
+	    <Button android:id="@+id/btnNewGame"
+	    	android:text="@string/btn_newgame"
+	    	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:layout_below="@id/logo"
+	        android:layout_marginTop="10dp"
+	        android:width="110dp">
+	    </Button>
+	    <Button android:id="@+id/btnScore"
+	    	android:text="@string/btn_score"
+	    	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:layout_below="@id/btnNewGame"
+	        android:layout_marginTop="6dp"
+	        android:width="110dp">
+	    </Button>
+	    <Button android:id="@+id/btnHelp"
+	    	android:text="@string/btn_help"
+	    	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:layout_below="@id/btnScore"
+	        android:layout_marginTop="6dp"
+	        android:width="110dp">
+	    </Button>
+	    <Button android:id="@+id/btnAbout"
+	    	android:text="@string/btn_about"
+	    	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:layout_below="@id/btnHelp"
+	        android:layout_marginTop="6dp"
+	        android:width="110dp">
+	    </Button>
+    </RelativeLayout>
+    
+</LinearLayout>
